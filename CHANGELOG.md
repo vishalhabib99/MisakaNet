@@ -7,6 +7,43 @@ All notable changes to the Misaka Network project are documented here.
 
 ---
 
+## [2.49.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.48.0...v2.49.0) (2026-10-19)
+
+
+### Features
+
+* govern homepage Quickstart commands and tool count with a site-facts SSOT ([#3479](https://github.com/Ikalus1988/MisakaNet/issues/3479)) ([5096384](https://github.com/Ikalus1988/MisakaNet/commit/5096384d8975c2ea0ea454524b0136355b81e4db))
+* **lessons:** adopt eleven bounty lessons, and add "video" to the domain vocabulary ([#3485](https://github.com/Ikalus1988/MisakaNet/issues/3485)) ([ec699e2](https://github.com/Ikalus1988/MisakaNet/commit/ec699e289ab7b56878bab3531b936336dac27ae0))
+* **quickstart:** copy buttons per code block, per-step self-checks ([#3494](https://github.com/Ikalus1988/MisakaNet/issues/3494)) ([a0bb02a](https://github.com/Ikalus1988/MisakaNet/commit/a0bb02aabdcbd3b963eeb47467e6a5992d229fc4)), closes [#1893](https://github.com/Ikalus1988/MisakaNet/issues/1893)
+
+
+### Bug Fixes
+
+* a degraded read must not be reported as an empty corpus ([#3512](https://github.com/Ikalus1988/MisakaNet/issues/3512)) ([898a63b](https://github.com/Ikalus1988/MisakaNet/commit/898a63b3f833bdbe3b6c1670bc5ceff4439fe441))
+* **automation:** three reds, one cause (D1's free tier) and one standing defect ([#3450](https://github.com/Ikalus1988/MisakaNet/issues/3450)) ([030b203](https://github.com/Ikalus1988/MisakaNet/commit/030b2031ea81a7998943c67a2ec4c809aeeade48))
+* **backup:** export table by table — `--no-schema` alone does not dodge the FTS5 refusal ([#3452](https://github.com/Ikalus1988/MisakaNet/issues/3452)) ([72aaa6c](https://github.com/Ikalus1988/MisakaNet/commit/72aaa6c3bd37ac48a2aaf6356048eb599b020f55))
+* **codeql:** keep generated lesson artefacts out of the secret query ([#3488](https://github.com/Ikalus1988/MisakaNet/issues/3488)) ([13446fc](https://github.com/Ikalus1988/MisakaNet/commit/13446fc50b98f47fd32ca4f9688b1a05d84d53a1))
+* **heal:** refuse to write a fixture whose signature carries a credential ([#3493](https://github.com/Ikalus1988/MisakaNet/issues/3493)) ([a9c59fb](https://github.com/Ikalus1988/MisakaNet/commit/a9c59fb0ef0c92f89b5ccedb2d43fbe0c485e5e5))
+* **mcp:** the preflight schema says it needs a Bearer token, not just its error ([#3497](https://github.com/Ikalus1988/MisakaNet/issues/3497)) ([b0ef5c7](https://github.com/Ikalus1988/MisakaNet/commit/b0ef5c7f020091c6eb469d0db47df3a495d3cb48))
+* the six verified severe defects from [#1775](https://github.com/Ikalus1988/MisakaNet/issues/1775) ([#3478](https://github.com/Ikalus1988/MisakaNet/issues/3478)) ([00befab](https://github.com/Ikalus1988/MisakaNet/commit/00befab068d9e9147fac95e9315b33f8c5b804a3))
+
+
+### Documentation
+
+* align the intro with what the installer, the worker and the fields actually say ([#3500](https://github.com/Ikalus1988/MisakaNet/issues/3500)) ([f781e30](https://github.com/Ikalus1988/MisakaNet/commit/f781e3041c4117565814fb11654c3f85fba56615))
+* **codeql:** correct which tool produced the sixteen secret alerts ([#3490](https://github.com/Ikalus1988/MisakaNet/issues/3490)) ([26154ef](https://github.com/Ikalus1988/MisakaNet/commit/26154efb866201c9f25fedafe0b591723043f70a))
+* **start:** wire Quickstart track A to /start and back-link to Quickstart (fix [#1896](https://github.com/Ikalus1988/MisakaNet/issues/1896)) ([#3473](https://github.com/Ikalus1988/MisakaNet/issues/3473)) ([6699a3b](https://github.com/Ikalus1988/MisakaNet/commit/6699a3b571d4b322da28ad1c181a2ddd98deb630))
+
+
+### Tests
+
+* **site:** lock Quickstart copy to data-i18n and keep zh from shipping English ([#3475](https://github.com/Ikalus1988/MisakaNet/issues/3475)) ([11887f1](https://github.com/Ikalus1988/MisakaNet/commit/11887f18ad3d930b514bf91e2d8e21ddf83821ae))
+
+
+### Lessons
+
+* convert intake [#3339](https://github.com/Ikalus1988/MisakaNet/issues/3339) (proxy the shell never inherited) and [#3470](https://github.com/Ikalus1988/MisakaNet/issues/3470) (a disable nobody verified) ([#3501](https://github.com/Ikalus1988/MisakaNet/issues/3501)) ([916650c](https://github.com/Ikalus1988/MisakaNet/commit/916650c1b43aba72c289b6691ce68470e30ebd12))
+
 ## [2.48.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.47.0...v2.48.0) (2026-10-17)
 
 
